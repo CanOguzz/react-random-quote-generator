@@ -15,8 +15,8 @@ export const RandomQuote = () => {
     
 
     const [quote, setQuote] = useState({
-        text:"texttext",
-        author:"authorauthor"
+        text:"Peace at Home, Peace in the World",
+        author:"MUSTAFA KEMAL ATATURK"
     });  
 
     const random =() => {  
