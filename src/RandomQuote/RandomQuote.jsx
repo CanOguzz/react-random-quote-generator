@@ -37,7 +37,7 @@ export const RandomQuote = () => {
             <div id="author">- {quote.author.split(",")[0]}</div>
             <button type="button" id="new-quote">
                 <img src={reflesh_icon} alt='refleshimg' onClick={()=>{random()}}></img>
-                {/* <img src={twitter_icon} alt=''></img> */}
+                <a id="tweet-quote" href='https://twitter.com/intent/tweet'>{<img src={twitter_icon} alt=''></img>}</a>
             </button>
             </div>
         </div>
