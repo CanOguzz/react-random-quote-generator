@@ -30,7 +30,7 @@ export const RandomQuote = () => {
 
    
     <div id="quote-box">
-        <div id="text">{quote.text}</div>
+        <div id="text">"{quote.text}"</div>
         <div>
             <div className='line'></div>
             <div className='bottom'> 

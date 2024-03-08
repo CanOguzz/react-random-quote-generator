@@ -4,22 +4,23 @@
     align-items: center;
     margin: auto;
     margin-top: 250px;
-    background: blue;
+    background: white;
     width: 800px;
     border-radius: 15px;
 }
 
 #text{
     padding: 60px 110px;
-    color: white;
+    color: rgb(218, 97, 21);
     font-size: 32px;
     text-align: center;
+    font-family: "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .line{
     width: 680px;
     height: 1.5px;
-    background: white;
+    background: rgb(218, 97, 21);
 }
 
 .bottom{
@@ -31,7 +32,7 @@
 }
 
 #author{
-    color: white;
+    color: rgb(218, 97, 21);
     font-size: 24px;
     padding: 0px 20px;
 }
